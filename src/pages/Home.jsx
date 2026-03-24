@@ -125,7 +125,7 @@ function Home() {
 
         {/* Right Side: Image */}
         <div className="w-full md:w-1/2 p-6 md:p-12 lg:p-16 flex relative animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-500">
-          <div className="w-full relative shadow-2xl overflow-hidden h-[260px] sm:h-[360px] md:h-auto md:aspect-[3/4] lg:aspect-[4/5] max-h-[680px]">
+          <div className="hover-cursor-target w-full relative shadow-2xl overflow-hidden h-[260px] sm:h-[360px] md:h-auto md:aspect-[3/4] lg:aspect-[4/5] max-h-[680px]">
             <div
               className="absolute inset-0 w-full h-full bg-cover bg-center"
               style={{ backgroundImage: "url('/imagesea(11).jpg')" }}
@@ -153,7 +153,7 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 w-full max-w-[1400px]">
           {/* Card 1 */}
           <div className="flex flex-col group cursor-pointer bg-transparent animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-100">
-            <div className="relative w-full aspect-[4/3] overflow-hidden mb-6">
+            <div className="hover-cursor-target relative w-full aspect-[4/3] overflow-hidden mb-6">
               <img src="/imagesea(12).jpg" alt="Website Design" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               {/* Yellow Icon Badge */}
               <div className="absolute top-0 left-6 md:left-8 w-14 h-14 md:w-16 md:h-16 bg-[#3B82F6] flex items-center justify-center shadow-lg">
@@ -172,7 +172,7 @@ function Home() {
 
           {/* Card 2 */}
           <div className="flex flex-col group cursor-pointer bg-transparent animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-300">
-            <div className="relative w-full aspect-[4/3] overflow-hidden mb-6">
+            <div className="hover-cursor-target relative w-full aspect-[4/3] overflow-hidden mb-6">
               <img src="imagesea(14).jpg" alt="Logo Design" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               {/* Yellow Icon Badge */}
               <div className="absolute top-0 left-6 md:left-8 w-14 h-14 md:w-16 md:h-16 bg-[#3B82F6] flex items-center justify-center shadow-lg">
@@ -192,7 +192,7 @@ function Home() {
 
           {/* Card 3 */}
           <div className="flex flex-col group cursor-pointer bg-transparent animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-500">
-            <div className="relative w-full aspect-[4/3] overflow-hidden mb-6">
+            <div className="hover-cursor-target relative w-full aspect-[4/3] overflow-hidden mb-6">
               <img src="/imagesea(13).jpg" alt="Apps Development" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               {/* Yellow Icon Badge */}
               <div className="absolute top-0 left-6 md:left-8 w-14 h-14 md:w-16 md:h-16 bg-[#3B82F6] flex items-center justify-center shadow-lg">
@@ -396,7 +396,7 @@ function Home() {
                 {galleryImages.map((src, idx) => (
                   <div 
                     key={idx} 
-                    className="flex-shrink-0 aspect-square overflow-hidden bg-[#111] relative mr-4 md:mr-6 w-[calc(50%-0.5rem)] md:w-[calc(50%-0.75rem)]"
+                    className="hover-cursor-target group flex-shrink-0 aspect-square overflow-hidden bg-[#111] relative mr-4 md:mr-6 w-[calc(50%-0.5rem)] md:w-[calc(50%-0.75rem)]"
                   >
                     <img 
                       src={src} 

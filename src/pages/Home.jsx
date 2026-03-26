@@ -61,7 +61,7 @@ function Home() {
       <div
         className="relative w-full min-h-screen flex items-center justify-center overflow-hidden pt-24 bg-black"
         style={{ background: "linear-gradient(105deg, #3B82F6 45%, #000000 45%)" }}
-      >ss
+      >
         <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 py-12 flex flex-col md:flex-row items-center justify-between gap-12 text-white">
 
           {/* Left Side: Personal Image */}

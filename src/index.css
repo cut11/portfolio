@@ -2,6 +2,7 @@
 
 body {
   @apply antialiased text-gray-900 bg-white dark:text-white dark:bg-[#16171d];
+  background-color: #0A0A0A;
 }
 
 @keyframes float {

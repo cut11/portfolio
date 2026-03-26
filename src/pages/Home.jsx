@@ -113,9 +113,7 @@ function Home() {
           </h2>
 
           <p className="text-[#a0a0a0] text-sm md:text-base leading-relaxed max-w-lg mb-8 md:mb-12 font-light animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-200">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illonge inventore
-            veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+            I craft modern, responsive, and robust full stack applications from the ground up, seamlessly integrating sleek front-end interfaces with secure and scalable back-end architectures to deliver exceptional experiences.
           </p>
 
           <div className="mt-8 flex items-center justify-start w-full animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-300">
@@ -163,9 +161,9 @@ function Home() {
               </div>
             </div>
             <div className="px-0 pb-6">
-              <h3 className="text-white text-xl md:text-2xl font-bold mb-3">Website Design</h3>
+              <h3 className="text-white text-xl md:text-2xl font-bold mb-3">Frontend Development</h3>
               <p className="text-[#a0a0a0] text-sm leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore incididunt ut labore et dolore
+                Building pixel-perfect, highly responsive, and interactive user interfaces using modern frameworks like React and Tailwind CSS.
               </p>
             </div>
           </div>
@@ -183,9 +181,9 @@ function Home() {
               </div>
             </div>
             <div className="px-0 pb-6">
-              <h3 className="text-white text-xl md:text-2xl font-bold mb-3">Logo Design</h3>
+              <h3 className="text-white text-xl md:text-2xl font-bold mb-3">Backend Development</h3>
               <p className="text-[#a0a0a0] text-sm leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore incididunt ut labore et dolore
+                Designing RESTful APIs, managing databases, and building robust server-side architectures using Node.js, Express, and modern databases.
               </p>
             </div>
           </div>
@@ -202,9 +200,9 @@ function Home() {
               </div>
             </div>
             <div className="px-0 pb-6">
-              <h3 className="text-white text-xl md:text-2xl font-bold mb-3">Apps Development</h3>
+              <h3 className="text-white text-xl md:text-2xl font-bold mb-3">Full Stack Solutions</h3>
               <p className="text-[#a0a0a0] text-sm leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore incididunt ut labore et dolore
+                Delivering end-to-end web applications by bridging the gap between visually stunning frontends and high-performance backend systems.
               </p>
             </div>
           </div>
@@ -223,21 +221,21 @@ function Home() {
 
         {/* Timeline List */}
         <div className="w-full max-w-[1200px] flex flex-col relative animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-200">
-          
+
           {/* Item 1 */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 relative z-10 w-full mb-12 items-start">
-            
+
             {/* Left: Role Info */}
             <div className="md:col-span-3 flex flex-col space-y-2">
               <h3 className="text-white text-2xl font-black">2019 - Present</h3>
-              <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase mt-3">Creative Agency</span>
-              <span className="text-[#3B82F6] text-sm font-semibold">Framer Designer & Developer</span>
+              <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase mt-3">Tech Innovators</span>
+              <span className="text-[#3B82F6] text-sm font-semibold">Senior Full Stack Developer</span>
             </div>
 
             {/* Middle: Description */}
             <div className="md:col-span-5 flex items-start md:items-center">
               <p className="text-[#a0a0a0] text-sm leading-relaxed font-light mt-1 md:mt-0">
-                Nemo enim ipsam voluptatem designr quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qUI Designe ratione
+                Architecting and implementing scalable full stack architectures, leading the development of core features using React, Node.js, and modern databases.
               </p>
             </div>
 
@@ -245,16 +243,16 @@ function Home() {
             <div className="md:col-span-4 flex flex-col justify-center">
               <div className="relative w-full mt-6 md:mt-0">
                 <span className="text-white text-xs font-medium block mb-8">Performance</span>
-                
+
                 {/* Bar */}
                 <div className="w-full h-1.5 bg-[#ffffff33] relative">
-                  <div 
-                    className="progress-bar-fill absolute top-0 left-0 h-full bg-[#3B82F6] transition-all duration-[1500ms] ease-out w-0" 
+                  <div
+                    className="progress-bar-fill absolute top-0 left-0 h-full bg-[#3B82F6] transition-all duration-[1500ms] ease-out w-0"
                     data-width="70%"
                   ></div>
-                  
+
                   {/* Tooltip */}
-                  <div 
+                  <div
                     className="progress-tooltip absolute bottom-3 flex flex-col items-center transition-all duration-[1500ms] ease-out opacity-0"
                     style={{ left: '0%', transform: 'translateX(-50%)' }}
                     data-left="70%"
@@ -273,25 +271,25 @@ function Home() {
 
           {/* Divider Line with Circle */}
           <div className="relative w-full py-8 md:py-12 hidden md:block">
-             <div className="absolute top-1/2 left-0 w-full h-[1px] bg-white/10 -translate-y-1/2"></div>
-             {/* The circle on the line */}
-             <div className="absolute top-1/2 left-[25%] -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border border-white/10 bg-[#0a0a0a]"></div>
+            <div className="absolute top-1/2 left-0 w-full h-[1px] bg-white/10 -translate-y-1/2"></div>
+            {/* The circle on the line */}
+            <div className="absolute top-1/2 left-[25%] -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border border-white/10 bg-[#0a0a0a]"></div>
           </div>
 
           {/* Item 2 */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 relative z-10 w-full mt-8 md:mt-0 items-start">
-            
+
             {/* Left: Role Info */}
             <div className="md:col-span-3 flex flex-col space-y-2">
               <h3 className="text-white text-2xl font-black">2014 - 2018</h3>
-              <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase mt-3">Samsung Tech</span>
-              <span className="text-[#3B82F6] text-sm font-semibold">Web Application Manager</span>
+              <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase mt-3">Global Tech Solutions</span>
+              <span className="text-[#3B82F6] text-sm font-semibold">Frontend / Backend Developer</span>
             </div>
 
             {/* Middle: Description */}
             <div className="md:col-span-5 flex items-start md:items-center">
               <p className="text-[#a0a0a0] text-sm leading-relaxed font-light mt-1 md:mt-0">
-                Nemo enim ipsam voluptatem designr quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qUI Designe ratione
+                Built and maintained complex web applications, optimized database queries, and collaborated with cross-functional teams to deliver high-quality software.
               </p>
             </div>
 
@@ -299,16 +297,16 @@ function Home() {
             <div className="md:col-span-4 flex flex-col justify-center">
               <div className="relative w-full mt-6 md:mt-0">
                 <span className="text-white text-xs font-medium block mb-8">Performance</span>
-                
+
                 {/* Bar */}
                 <div className="w-full h-1.5 bg-[#ffffff33] relative">
-                  <div 
-                    className="progress-bar-fill absolute top-0 left-0 h-full bg-[#3B82F6] transition-all duration-[1500ms] ease-out w-0" 
+                  <div
+                    className="progress-bar-fill absolute top-0 left-0 h-full bg-[#3B82F6] transition-all duration-[1500ms] ease-out w-0"
                     data-width="80%"
                   ></div>
-                  
+
                   {/* Tooltip */}
-                  <div 
+                  <div
                     className="progress-tooltip absolute bottom-3 flex flex-col items-center transition-all duration-[1500ms] ease-out opacity-0"
                     style={{ left: '0%', transform: 'translateX(-50%)' }}
                     data-left="80%"
@@ -327,23 +325,23 @@ function Home() {
 
           {/* Divider Line (No Circle) */}
           <div className="relative w-full py-8 md:py-12">
-             <div className="absolute top-1/2 left-0 w-full h-[1px] bg-white/10 -translate-y-1/2"></div>
+            <div className="absolute top-1/2 left-0 w-full h-[1px] bg-white/10 -translate-y-1/2"></div>
           </div>
 
           {/* Item 3 */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 relative z-10 w-full mt-8 md:mt-0 items-start">
-            
+
             {/* Left: Role Info */}
             <div className="md:col-span-3 flex flex-col space-y-2">
               <h3 className="text-white text-2xl font-black">2008-2013</h3>
-              <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase mt-3">METAVERSE</span>
-              <span className="text-[#3B82F6] text-sm font-semibold">Framer Designer & Developer</span>
+              <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase mt-3">Digital Web Agency</span>
+              <span className="text-[#3B82F6] text-sm font-semibold">Junior Web Developer</span>
             </div>
 
             {/* Middle: Description */}
             <div className="md:col-span-5 flex items-start md:items-center">
               <p className="text-[#a0a0a0] text-sm leading-relaxed font-light mt-1 md:mt-0">
-                Nemo enim ipsam voluptatem designr quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qUI Designe ratione
+                Started my journey by developing responsive UI components, integrating RESTful APIs, and learning the fundamentals of modern web development.
               </p>
             </div>
 
@@ -351,16 +349,16 @@ function Home() {
             <div className="md:col-span-4 flex flex-col justify-center">
               <div className="relative w-full mt-6 md:mt-0">
                 <span className="text-white text-xs font-medium block mb-8">Performance</span>
-                
+
                 {/* Bar */}
                 <div className="w-full h-1.5 bg-[#ffffff33] relative">
-                  <div 
-                    className="progress-bar-fill absolute top-0 left-0 h-full bg-[#3B82F6] transition-all duration-[1500ms] ease-out w-0" 
+                  <div
+                    className="progress-bar-fill absolute top-0 left-0 h-full bg-[#3B82F6] transition-all duration-[1500ms] ease-out w-0"
                     data-width="90%"
                   ></div>
-                  
+
                   {/* Tooltip */}
-                  <div 
+                  <div
                     className="progress-tooltip absolute bottom-3 flex flex-col items-center transition-all duration-[1500ms] ease-out opacity-0"
                     style={{ left: '0%', transform: 'translateX(-50%)' }}
                     data-left="90%"
@@ -383,74 +381,7 @@ function Home() {
       </section>
 
       {/* Latests Portfolio Gallery Section */}
-      <section className="w-full bg-[#0a0a0a] py-16 md:py-32 px-6 md:px-12 lg:px-24 flex flex-col items-center relative border-t border-white/5">
-        <div className="w-full max-w-[1400px] flex flex-col lg:flex-row items-center gap-12 lg:gap-24 relative z-10">
-          
-          {/* Left Side: Images */}
-          <div className="w-full lg:w-[55%] animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out">
-            <div className="w-full overflow-hidden">
-              <div 
-                className="flex transition-transform duration-700 ease-in-out [--slide-shift:0.5rem] md:[--slide-shift:0.75rem]"
-                style={{ transform: `translateX(calc(-${galleryIndex} * (50% + var(--slide-shift))))` }}
-              >
-                {galleryImages.map((src, idx) => (
-                  <div 
-                    key={idx} 
-                    className="hover-cursor-target group flex-shrink-0 aspect-square overflow-hidden bg-[#111] relative mr-4 md:mr-6 w-[calc(50%-0.5rem)] md:w-[calc(50%-0.75rem)]"
-                  >
-                    <img 
-                      src={src} 
-                      alt={`Portfolio ${idx + 1}`} 
-                      className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" 
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
 
-          {/* Right Side: Content */}
-          <div className="w-full lg:w-[45%] flex flex-col items-start text-left animate-on-scroll opacity-0 translate-y-12 transition-all duration-1000 ease-out delay-200">
-            <span className="text-[#3B82F6] font-bold text-xs tracking-widest uppercase mb-4 md:mb-6">Gallery</span>
-            
-            <h2 className="text-white text-4xl sm:text-5xl lg:text-[60px] font-black leading-[1.05] mb-6 uppercase">
-              Latests<br />Portfolio
-            </h2>
-            
-            <p className="text-[#a0a0a0] text-sm md:text-base leading-relaxed max-w-lg mb-10 font-light">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem design accusantium doloremque laudantium<br />
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem design accusantium doloremque laudantium
-            </p>
-            
-            {/* Slider Navigation Buttons */}
-            <div className="flex items-center gap-4">
-              <button 
-                onClick={handlePrevGallery} 
-                className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-[#111] border border-white/5 hover:bg-[#3B82F6] text-[#3B82F6] hover:text-black transition-all group"
-              >
-                <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="square" strokeLinejoin="miter" d="M15 19l-7-7 7-7"></path>
-                </svg>
-              </button>
-              <button 
-                onClick={handleNextGallery} 
-                className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-[#111] border border-white/5 hover:bg-[#3B82F6] text-[#3B82F6] hover:text-black transition-all group"
-              >
-                <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="square" strokeLinejoin="miter" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </button>
-            </div>
-
-          </div>
-
-        </div>
-
-        {/* Faint circle layout decoration at bottom center */}
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 w-8 h-8 rounded-full border border-white/10 hidden md:block"></div>
-        
-
-      </section>
 
     </>
   )
